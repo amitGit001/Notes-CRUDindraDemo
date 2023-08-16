@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axios, { HttpStatusCode } from "axios";
+import axios from "axios";
 
 import Notes from "./Notes";
 
@@ -60,6 +60,11 @@ const Form = () => {
   const noteById = async (notesId) => {
     try {
       const res = await axios.get(`http://localhost:8080/notes/${notesId}`);
+      setNote({
+        title: res.data.title,
+        description: res.data.description,
+        notesId: res.data.notesId,
+      });
 
       setDescription(res.data.description);
       setTitle(res.data.title);
