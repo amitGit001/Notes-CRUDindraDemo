@@ -1,6 +1,6 @@
 package com.example.demonotes.Service;
 
-import com.example.demonotes.dao.Notes;
+import com.example.demonotes.entity.Notes;
 
 import java.util.List;
 

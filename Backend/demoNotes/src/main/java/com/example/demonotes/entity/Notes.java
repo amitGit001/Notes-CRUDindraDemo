@@ -1,4 +1,4 @@
-package com.example.demonotes.dao;
+package com.example.demonotes.entity;
 
 import jakarta.persistence.*;
 
@@ -48,4 +48,8 @@ public class Notes {
                 ", description='" + description + '\'' +
                 '}';
     }
+
+    @ManyToOne
+    @JoinColumn(name = "userId")
+    User user;
 }

@@ -2,7 +2,7 @@ package com.example.demonotes.Service.impl;
 
 import com.example.demonotes.Respository.notesRepo;
 import com.example.demonotes.Service.notesService;
-import com.example.demonotes.dao.Notes;
+import com.example.demonotes.entity.Notes;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
