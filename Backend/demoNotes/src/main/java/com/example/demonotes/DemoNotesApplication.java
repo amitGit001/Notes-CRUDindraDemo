@@ -1,7 +1,7 @@
 package com.example.demonotes;
 
 import com.example.demonotes.Respository.notesRepo;
-import com.example.demonotes.dao.Notes;
+import com.example.demonotes.entity.Notes;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;

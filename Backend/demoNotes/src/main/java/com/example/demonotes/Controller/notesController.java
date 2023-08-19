@@ -1,7 +1,7 @@
 package com.example.demonotes.Controller;
 
 import com.example.demonotes.Service.notesService;
-import com.example.demonotes.dao.Notes;
+import com.example.demonotes.entity.Notes;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
